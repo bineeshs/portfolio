@@ -1,0 +1,26 @@
+<section id="hero" class="hero-section container fade-in">
+    <!-- Professional Photo -->
+    <div class="hero-visual">
+        <div class="photo-wrapper glass-card">
+            <img src="my_image_new.jpeg" alt="Bineesh Shaji" class="profile-img">
+        </div>
+    </div>
+
+    <div class="hero-content">
+        <h4 class="greeting gradient-text">Hi, I am</h4>
+        <h1 class="name">{{ data?.name }}</h1>
+        <h2 class="title">{{ data?.title }}</h2>
+        <p class="summary">{{ summary }}</p>
+        <div class="cta-group">
+            <a href="#projects" class="btn-outlinePrimary">View My Work</a>
+            <a href="BineeshShaji_Resume.pdf" download class="btn-outlineSecondary">Download Resume</a>
+            <a [href]="data?.linkedin" target="_blank" class="btn-social">LinkedIn</a>
+            <a [href]="data?.github" target="_blank" class="btn-social">GitHub</a>
+            <a [href]="data?.gitlab" target="_blank" class="btn-social">GitLab</a>
+        </div>
+    </div>
+
+    <div class="hero-badges" *ngIf="data?.highlights">
+        <span class="badge glass-card" *ngFor="let skill of data?.highlights">{{ skill }}</span>
+    </div>
+</section>

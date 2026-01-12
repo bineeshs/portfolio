@@ -1,0 +1,209 @@
+{
+    "personal_info": {
+        "name": "Bineesh Shaji",
+        "phone": [
+            "+91 9946037905",
+            "+91 8129215039"
+        ],
+        "email": "bineeshshaji8@gmail.com",
+        "linkedin": "https://linkedin.com/in/bineesh-shaji-7075011b8",
+        "github": "https://github.com/bineeshshaji",
+        "gitlab": "https://gitlab.com/bineeshshaji",
+        "address": "Kochi, Kerala, India",
+        "title": "Full Stack Developer",
+        "highlights": [
+            "Python",
+            "Django",
+            "Angular",
+            "React.js",
+            "PostgreSQL",
+            "NoSQL",
+            "DevOps"
+        ]
+    },
+    "summary": "Results-driven Full Stack Developer with 3+ years of experience in designing, developing, and deploying high-performance web applications. Expertise in Python, Django, Django REST Framework, FastAPI, React.js, Angular, PostgreSQL, and MongoDB. Proficient in RESTful API design, database optimization (SQL/NoSQL), and version control using Git. Skilled in problem-solving, debugging, and delivering secure, scalable solutions in Agile/Scrum environments with strong communication skills.",
+    "experience": [
+        {
+            "role": "Python Backend Developer",
+            "company": "Faircode Technologies Pvt. Ltd",
+            "location": "Kochi, India / Hybrid",
+            "period": "Jan 2025 – Present",
+            "description": [
+                "Develop backend modules and REST APIs using Python (Frappe framework) for logistics and finance operations.",
+                "Worked with both SQL (PostgreSQL) and NoSQL (MongoDB) databases for efficient data storage and retrieval.",
+                "Implemented OAuth2 authentication and webhook integrations for QuickBooks Online.",
+                "Automated secure file transfers via SFTP and background job scheduling.",
+                "Collaborated in a remote Agile environment using Git-based workflows for version control."
+            ]
+        },
+        {
+            "role": "Software Developer",
+            "company": "Travidux Technologies Pvt. Ltd",
+            "location": "Chalakudy, India",
+            "period": "Sept 2022 – Oct 2024",
+            "description": [
+                "Developed and maintained REST APIs using Python, Django, Django REST Framework.",
+                "Designed and implemented responsive UIs using React.js, Angular, TypeScript, Bootstrap, ensuring cross-device compatibility.",
+                "Optimized PostgreSQL database schemas and queries for performance improvements.",
+                "Implemented version control using Git/GitLab and participated in continuous integration workflows.",
+                "Followed Agile methodology with sprint planning and daily scrum."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Logistics ERP Integration Platform",
+            "tech_stack": [
+                "Frappe",
+                "REST APIs",
+                "Pandas",
+                "MariaDB",
+                "QuickBooks API",
+                "Inttra API",
+                "EDI"
+            ],
+            "screenshots": [
+                "project1_1.png",
+                "project1_2.png",
+                "project1_3.png",
+                "project1_4.png",
+                "project1_5.png",
+                "project11_6.png"
+            ],
+            "details": [
+                "Developed a secure, high-performance ERP system for freight operations with automated booking workflows, EDI exchange, and a scalable data pipeline integrating Excel/CSV into database using ORM models.",
+                "Designed REST APIs for third-party logistics and accounting systems integration using Django REST practices.",
+                "Applied debugging and optimization for low-latency queries and high availability.",
+                "Integrated QuickBooks API securely with data validation and protection measures."
+            ]
+        },
+        {
+            "name": "Appraisal Management System",
+            "tech_stack": [
+                "Angular",
+                "Django",
+                "DRF",
+                "PostgreSQL",
+                "Pandas"
+            ],
+            "screenshots": [
+                "project2_1.png"
+            ],
+            "details": [
+                "Built a performance evaluation platform with customizable appraisal forms and real-time visualization from SQL/ORM queries.",
+                "Integrated Angular frontend with DRF backend for smooth client-server interaction.",
+                "Optimized PostgreSQL indexes and queries for large-scale evaluations.",
+                "Implemented secure role-based access and robust error handling."
+            ]
+        },
+        {
+            "name": "Business Intelligence (BI) Software",
+            "tech_stack": [
+                "Django",
+                "DRF",
+                "Pandas",
+                "PostgreSQL",
+                "Data Visualization"
+            ],
+            "screenshots": [
+                "project3_1.png"
+            ],
+            "details": [
+                "Developed a BI system to analyze, transform, and report data for decision support via dashboards and KPIs.",
+                "Optimized ETL pipelines in Python with Pandas, storing transformed results into PostgreSQL using ORM.",
+                "Built REST APIs using DRF for secure interactive reporting and visualizations."
+            ]
+        },
+        {
+            "name": "Point of Sale (POS) System",
+            "tech_stack": [
+                "Django",
+                "DRF",
+                "MySQL",
+                "REST APIs",
+                "Bootstrap"
+            ],
+            "screenshots": [
+                "project4_1.png"
+            ],
+            "details": [
+                "Implemented POS system automating invoices, stock management, and accounting workflows with Django-MySQL backend.",
+                "Built secure DRF-based API endpoints with role-based authentication for external accounting integration.",
+                "Designed dashboards for real-time inventory and sales, enabling proactive decisions and fraud prevention."
+            ]
+        }
+    ],
+    "skills": {
+        "languages": [
+            "Python",
+            "JavaScript",
+            "TypeScript",
+            "SQL",
+            "NoSQL",
+            "C",
+            "C++"
+        ],
+        "frameworks": [
+            "Django",
+            "Django REST Framework",
+            "FastAPI",
+            "Angular",
+            "React.js",
+            "Bootstrap",
+            "Tailwind",
+            "Frappe",
+            "ERPNext"
+        ],
+        "databases": [
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB"
+        ],
+        "domains": [
+            "Logistics & Supply Chain",
+            "ERP Systems",
+            "Finance & Accounting",
+            "Business Intelligence (BI)",
+            "POS Systems",
+            "HR & Appraisal Systems"
+        ],
+        "version_control": [
+            "Git",
+            "GitHub",
+            "GitLab"
+        ],
+        "devops_tools": [
+            "AWS (EC2, S3)",
+            "Nginx",
+            "uWSGI",
+            "Docker",
+            "GitLab CI/CD",
+            "Postman",
+            "JIRA",
+            "VS Code",
+            "PyCharm"
+        ]
+    },
+    "education": [
+        {
+            "degree": "B.Tech in Electronics and Communication Engineering",
+            "period": "2012 – 2016",
+            "institution": "Mount Zion College of Engineering",
+            "location": "Kadammanitta, Pathanamthitta, India"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Python Django Internship",
+            "period": "Aug 2021 – Aug 2022",
+            "institution": "Inmakes Infotech Pvt. Ltd",
+            "location": "Thiruvananthapuram, India"
+        }
+    ],
+    "languages": [
+        "English (Fluent)",
+        "Malayalam (Native)",
+        "Hindi",
+        "Tamil"
+    ]
+}

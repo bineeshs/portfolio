@@ -1,0 +1,16 @@
+<section id="experience" class="experience-section container fade-in">
+    <h2 class="section-title">Professional Experience</h2>
+    <div class="timeline">
+        <div class="timeline-item glass-card" *ngFor="let exp of data">
+            <div class="time-header">
+                <span class="period">{{ exp.period }}</span>
+                <h3 class="role">{{ exp.role }}</h3>
+                <h4 class="company gradient-text">{{ exp.company }}</h4>
+                <p class="location">{{ exp.location }}</p>
+            </div>
+            <ul class="description">
+                <li *ngFor="let point of exp.description">{{ point }}</li>
+            </ul>
+        </div>
+    </div>
+</section>

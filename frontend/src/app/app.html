@@ -1,0 +1,17 @@
+<app-navbar></app-navbar>
+
+<main>
+  <app-hero [data]="resumeData?.personal_info" [summary]="resumeData?.summary"></app-hero>
+  <app-experience [data]="resumeData?.experience"></app-experience>
+  <app-projects [data]="resumeData?.projects" (previewScreenshots)="openScreenshotPreview($event)"></app-projects>
+  <app-skills [data]="resumeData?.skills"></app-skills>
+  <app-education [data]="resumeData?.education" [certifications]="resumeData?.certifications"></app-education>
+</main>
+
+<app-scroll-top></app-scroll-top>
+<app-footer [data]="resumeData?.personal_info"></app-footer>
+
+<app-screenshot-modal *ngIf="showScreenshotModal" [images]="selectedScreenshots"
+  (close)="closeScreenshotPreview()"></app-screenshot-modal>
+
+<router-outlet></router-outlet>

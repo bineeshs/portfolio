@@ -1,0 +1,65 @@
+.education-section {
+    padding-bottom: 8rem;
+}
+
+.grid-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.block-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.edu-list,
+.cert-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.edu-item,
+.cert-item {
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    transition: var(--transition);
+}
+
+.edu-item:hover,
+.cert-item:hover {
+    border-color: var(--primary);
+}
+
+.period {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.degree,
+.cert-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+.institution {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-main);
+}
+
+.location {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+@media (max-width: 900px) {
+    .grid-split {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}

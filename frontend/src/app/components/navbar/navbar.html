@@ -1,0 +1,25 @@
+<nav class="navbar glass-card">
+    <div class="container nav-content">
+        <div class="logo font-heading gradient-text">BS.</div>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="hamburger" (click)="toggleMenu()" [class.active]="isMenuOpen">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links" [class.open]="isMenuOpen">
+            <li><a href="#hero" (click)="closeMenu()">Home</a></li>
+            <li><a href="#experience" (click)="closeMenu()">Experience</a></li>
+            <li><a href="#projects" (click)="closeMenu()">Projects</a></li>
+            <li><a href="#skills" (click)="closeMenu()">Skills</a></li>
+            <li><a href="#education" (click)="closeMenu()">Education</a></li>
+            <li class="mobile-only"><a href="mailto:bineeshshaji8@gmail.com" class="btn-primary">Hire Me</a></li>
+        </ul>
+
+        <div class="nav-actions desktop-only">
+            <a href="mailto:bineeshshaji8@gmail.com" class="btn-primary">Hire Me</a>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,11 @@
+<section id="skills" class="skills-section container fade-in">
+    <h2 class="section-title">Technical Expertise</h2>
+    <div class="skills-container">
+        <div class="skill-category glass-card" *ngFor="let cat of categories">
+            <h3 class="category-title">{{ formatCategory(cat) }}</h3>
+            <div class="skill-list">
+                <span class="skill-item" *ngFor="let skill of data[cat]">{{ skill }}</span>
+            </div>
+        </div>
+    </div>
+</section>

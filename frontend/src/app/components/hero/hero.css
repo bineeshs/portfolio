@@ -1,0 +1,150 @@
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2.5rem;
+    padding-top: 8rem;
+}
+
+.hero-visual {
+    margin-bottom: 2rem;
+}
+
+.photo-wrapper {
+    width: 280px;
+    height: 320px;
+    border-radius: 2rem;
+    overflow: hidden;
+    border: 4px solid var(--glass-border);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 30px rgba(99, 102, 241, 0.2);
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.photo-wrapper:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.greeting {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.name {
+    font-size: clamp(2.5rem, 8vw, 4.5rem);
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 0.75rem;
+}
+
+.title {
+    font-size: clamp(1.2rem, 4vw, 2.2rem);
+    color: var(--secondary);
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.summary {
+    max-width: 800px;
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    margin-bottom: 3rem;
+    padding: 0 1rem;
+}
+
+.cta-group {
+    display: flex;
+    gap: 1.25rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-outlinePrimary {
+    border: 1px solid var(--primary);
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    color: var(--primary);
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.btn-outlinePrimary:hover {
+    background: var(--primary);
+    color: white;
+}
+
+.btn-outlineSecondary {
+    border: 1px solid var(--secondary);
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    color: var(--secondary);
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.btn-outlineSecondary:hover {
+    background: var(--secondary);
+    color: white;
+}
+
+.btn-social {
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    background: var(--bg-card);
+    border: 1px solid var(--glass-border);
+    color: var(--text-main);
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.btn-social:hover {
+    border-color: var(--primary);
+}
+
+.hero-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+.badge {
+    padding: 0.5rem 1.1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding-top: 6rem;
+    }
+
+    .photo-wrapper {
+        width: 220px;
+        height: 250px;
+    }
+
+    .cta-group {
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+
+    .btn-outlinePrimary,
+    .btn-outlineSecondary,
+    .btn-social {
+        width: 100%;
+    }
+}

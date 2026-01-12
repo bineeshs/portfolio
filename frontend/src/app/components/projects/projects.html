@@ -1,0 +1,24 @@
+<section id="projects" class="projects-section container fade-in">
+    <h2 class="section-title">Key Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card glass-card" *ngFor="let project of data">
+            <div class="project-header">
+                <h3 class="project-name">{{ project.name }}</h3>
+                <button *ngIf="project.screenshots?.length" class="preview-btn"
+                    (click)="viewScreenshots(project.screenshots)" title="View Screenshots">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+                        fill="currentColor">
+                        <path
+                            d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0-33-23.5-56.5T760-120H200Zm0-80h560v-560H200v560Zm40-80h480L570-480 450-320l-90-120-120 160Zm-40 80v-560 560Z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="tech-stack">
+                <span class="tech-tag" *ngFor="let tech of project.tech_stack">{{ tech }}</span>
+            </div>
+            <ul class="project-details">
+                <li *ngFor="let detail of project.details">{{ detail }}</li>
+            </ul>
+        </div>
+    </div>
+</section>

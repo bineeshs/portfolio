@@ -1,0 +1,25 @@
+<section id="education" class="education-section container fade-in">
+    <div class="grid-split">
+        <div class="edu-block">
+            <h2 class="block-title">Education</h2>
+            <div class="edu-list">
+                <div class="edu-item glass-card" *ngFor="let edu of data">
+                    <span class="period">{{ edu.period }}</span>
+                    <h3 class="degree">{{ edu.degree }}</h3>
+                    <p class="institution">{{ edu.institution }}</p>
+                    <p class="location">{{ edu.location }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="cert-block">
+            <h2 class="block-title">Certifications</h2>
+            <div class="cert-list">
+                <div class="cert-item glass-card" *ngFor="let cert of certifications">
+                    <span class="period">{{ cert.period }}</span>
+                    <h3 class="cert-name">{{ cert.name }}</h3>
+                    <p class="institution">{{ cert.institution }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
