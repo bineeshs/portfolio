@@ -86,9 +86,7 @@
         "PostgreSQL",
         "Pandas"
       ],
-      "screenshots": [
-        "project2_1.png"
-      ],
+      "screenshots": [],
       "details": [
         "Built a performance evaluation platform with customizable appraisal forms and real-time visualization from SQL/ORM queries.",
         "Integrated Angular frontend with DRF backend for smooth client-server interaction.",
@@ -105,9 +103,7 @@
         "PostgreSQL",
         "Data Visualization"
       ],
-      "screenshots": [
-        "project3_1.png"
-      ],
+      "screenshots": [],
       "details": [
         "Developed a BI system to analyze, transform, and report data for decision support via dashboards and KPIs.",
         "Optimized ETL pipelines in Python with Pandas, storing transformed results into PostgreSQL using ORM.",
@@ -123,9 +119,7 @@
         "REST APIs",
         "Bootstrap"
       ],
-      "screenshots": [
-        "project4_1.png"
-      ],
+      "screenshots": [],
       "details": [
         "Implemented POS system automating invoices, stock management, and accounting workflows with Django-MySQL backend.",
         "Built secure DRF-based API endpoints with role-based authentication for external accounting integration.",
