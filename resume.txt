@@ -2,13 +2,13 @@ Bineesh Shaji
 +91 9946037905 / 8129215039 | bineeshshaji8@gmail.com | linkedin.com/in/bineesh-shaji-7075011b8
 Full Stack Developer — Python • Django • Angular • React.js • PostgreSQL • NoSQL • DevOps
 Professional Summary
-Results-driven Full Stack Developer with 3+ years of experience in designing, developing, and deploying high-performance
+Results-driven Full Stack Developer with 3.5+ years of experience in designing, developing, and deploying high-performance
 web applications. Expertise in Python, Django, Django REST Framework, FastAPI, React.js, Angular, PostgreSQL,
 and MongoDB. Proficient in RESTful API design, database optimization (SQL/NoSQL), and version control using Git.
 Skilled in problem-solving, debugging, and delivering secure, scalable solutions in Agile/Scrum environments with strong
 communication skills.
 Experience
-Python Backend Developer Jan 2025 – Present
+Python Backend Developer Jan 2025 – Jan 2026
 Faircode Technologies Pvt. Ltd Kochi, India / Hybrid
 – Develop backend modules and REST APIs using Python (Frappe framework) for logistics and finance operations.
 – Worked with both SQL (PostgreSQL) and NoSQL (MongoDB) databases for efficient data storage and retrieval.

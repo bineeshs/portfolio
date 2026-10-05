@@ -21,13 +21,13 @@
             "DevOps"
         ]
     },
-    "summary": "Results-driven Full Stack Developer with 3+ years of experience in designing, developing, and deploying high-performance web applications. Expertise in Python, Django, Django REST Framework, FastAPI, React.js, Angular, PostgreSQL, and MongoDB. Proficient in RESTful API design, database optimization (SQL/NoSQL), and version control using Git. Skilled in problem-solving, debugging, and delivering secure, scalable solutions in Agile/Scrum environments with strong communication skills.",
+    "summary": "Results-driven Full Stack Developer with 3.5+ years of experience in designing, developing, and deploying high-performance web applications. Expertise in Python, Django, Django REST Framework, FastAPI, React.js, Angular, PostgreSQL, and MongoDB. Proficient in RESTful API design, database optimization (SQL/NoSQL), and version control using Git. Skilled in problem-solving, debugging, and delivering secure, scalable solutions in Agile/Scrum environments with strong communication skills.",
     "experience": [
         {
             "role": "Python Backend Developer",
             "company": "Faircode Technologies Pvt. Ltd",
             "location": "Kochi, India / Hybrid",
-            "period": "Jan 2025 – Present",
+            "period": "Jan 2025 – Jan 2026",
             "description": [
                 "Develop backend modules and REST APIs using Python (Frappe framework) for logistics and finance operations.",
                 "Worked with both SQL (PostgreSQL) and NoSQL (MongoDB) databases for efficient data storage and retrieval.",
